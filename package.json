@@ -6,6 +6,9 @@
   "author"     : "Alexandru Vladutu <alexandru.vladutu@gmail.com>",
   "main"       : "./dynroute.js",
   "bin"        : { "dynroute" : "./bin/dynroute" },
+  "scripts"    : {
+    "start": "node ./bin/dynroute"
+  },
   "keywords"   : [
     "dyndns",
     "route53",
